@@ -1,8 +1,8 @@
 
 body {background: rgb(250, 215, 245)}
 #vanderson {width: 100%;}
-h1 {text-align: center;}
-h3 {text-align: center;}
-p {font-size: 18px; margin: 40px;}
+h1 {text-align: center; background: rgb(107, 11, 86); color: rgb(255, 254, 254);}
+h2 {text-align: center; background: rgb(107, 11, 86); color: rgb(255, 254, 254);}
+p {font-size: 20px; margin: 40px;}
 ul {font-size: 20px;} 
 #link {color: blue;}
