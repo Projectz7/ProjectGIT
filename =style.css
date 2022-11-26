@@ -1,3 +1,32 @@
+.mainmenubtn {
+    background-color: rgb(201, 14, 160);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: rgb(107, 11, 86);
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(201, 14, 160);
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
 
 body {background: rgb(250, 215, 245)}
 #I.vanderson {width: 100%;}
@@ -5,5 +34,8 @@ h1 {text-align: center; background: rgb(107, 11, 86); color: rgb(255, 254, 254);
 h2 {text-align: center; background: rgb(107, 11, 86); color: rgb(255, 254, 254);}
 p {font-size: 20px; margin: 40px;}
 ul {font-size: 20px;} 
-#link {color: blue;}
-button {background: rgb(107, 11, 86); border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;"}
+#link{color: blue;}
+button{background: rgb(107, 11, 86); border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;"}
+
+
+
